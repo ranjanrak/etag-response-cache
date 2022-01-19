@@ -5,7 +5,7 @@ README = open("README.md").read()
 
 setup(
     name="etag_cache",  
-    version="0.1",
+    version="0.2",
     author="Rakesh R",
     author_email="rrrakesh265@gmail.com",
     description="Python package for caching HTTP response based on etag",
