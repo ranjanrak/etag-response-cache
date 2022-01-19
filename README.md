@@ -17,16 +17,16 @@ Sample `GET` request header with `If-None-Match`:
 
 ## Installation
 ```
-To-do: Release it as pypi package
+pip install etag_cache
 ```
 
 ## Usage
 ```python
 import requests
-from etag_package import EtagCache
+from etag_cache import EtagCache
 
-
-cache_object = EtagCache()
+# dir_path defaults to $HOME/.pyapp, if not given
+cache_object = EtagCache(dir_path='your_defined_cache_directory_path')
 url = "https://api.kite.trade/portfolio/holdings"
 
 payload = ""
