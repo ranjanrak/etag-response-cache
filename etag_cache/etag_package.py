@@ -2,6 +2,10 @@
 @author: rakeshr
 """
 
+"""
+Python package for caching HTTP response based on etag
+"""
+
 import os
 import dbm
 import json
@@ -52,6 +56,6 @@ class EtagCache(object):
             with dbm.open(self.cache_path, 'c') as db:
                 db[response.url] = data
             byte_response = response.text
-        # In-memory dictionary data
+        # Return dictionary
         json_data = json.loads(byte_response)
         return json_data

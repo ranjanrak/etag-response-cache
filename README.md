@@ -1,5 +1,5 @@
 # etag-response-cache
-Etag cache implementation for python requests, to save bandwidth for a non-modified response. Returns
+Etag cache implementation for HTTP requests, to save request bandwidth for a non-modified response. Returns
 high-speed accessed dictionary data as cache.
 
 ## Concept
