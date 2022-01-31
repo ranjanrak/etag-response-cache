@@ -1,4 +1,6 @@
 # etag-response-cache
+[![PyPI version](https://badge.fury.io/py/etag-cache.svg)](https://badge.fury.io/py/etag-cache)
+
 Etag cache implementation for HTTP requests, to save request bandwidth for a non-modified response. Returns
 high-speed accessed dictionary data as cache.
 
